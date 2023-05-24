@@ -1,0 +1,5 @@
+<launch>
+  <node name="unite_imu_node" pkg="unite_imu" type="unite_imu.py" output="screen">
+    <!-- you may remap your topic here -->
+  </node>
+</launch>
