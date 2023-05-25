@@ -1,6 +1,6 @@
 # ROS2 node for unite-imu method
 This is ROS2 node for 
-* interpolating accelerometer value into gyrometer value which has higher frequency
+* interpolating accel message to the gyro's timestamp
 * fusing interpolated accel and gyro value into single imu topic
 
 I have tested this code in 
